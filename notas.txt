@@ -1,0 +1,238 @@
+    1  sudo apt udpdate
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  sudo reboot
+    5  cleae
+    6  clear
+    7  cd Descargas/
+    8  ls
+    9  sudo dpkg -i virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb 
+   10  sudo apt install -f
+   11  sudo dpkg -i virtualbox-7.0_7.0.8-156879~Ubuntu~jammy_amd64.deb 
+   12  ls
+   13  chmod +x VMware-Player-Full-17.0.2-21581411.x86_64.bundle 
+   14  sudo ./VMware-Player-Full-17.0.2-21581411.x86_64.bundle 
+   15  ls -l
+   16  sudo apt-get install build-essential linux-headers-generic
+   17  sudo apt update
+   18  sudo apt upgrade
+   19  clear
+   20  sudo apt update
+   21  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   22  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   23  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+   24  sudo apt update
+   25  sudo apt install docker-ce
+   26  sudo systemctl status docker
+   27  add-apt-repository ppa:git-core/ppa
+   28  sudo add-apt-repository ppa:git-core/ppa
+   29  apt update; apt install git
+   30  sudo apt update; sudo apt install git
+   31  cd Descargas/
+   32  ls
+   33  sudo dpkg -i docker-desktop-4.19.0-amd64.deb 
+   34  sudo apt update; sudo apt install git
+   35  cd Descargas/
+   36  sudo dpkg -i docker-desktop-4.19.0-amd64.deb 
+   37  sudo apt install -f
+   38  sudo dpkg -i docker-desktop-4.19.0-amd64.deb 
+   39  ls -l
+   40  dpkg -i code_1.78.2-1683731010_amd64.deb 
+   41  sudo dpkg -i code_1.78.2-1683731010_amd64.deb 
+   42  sudo apt update
+   43  sudo apt install nodejs
+   44  sudo apt install npm
+   45  sudo apt install nodejs
+   46  sudo apt install npm
+   47  git version
+   48  git config --global user.name
+   49  sudo add-apt-repository ppa:obsproject/obs-studio
+   50  git config --global user.name "Srm7523"
+   51  git config --global user.name
+   52  git config --global user.email
+   53  git config --global user.email "salvador.reyes.7523@gmail.com"
+   54  git config --global user.email
+   55  cd Documentos/
+   56  mkdir automatizacion
+   57  mkdir proyecto
+   58  cd automatizacion/
+   59  mkdir proyecto
+   60  cd proyecto/
+   61  clear
+   62  git init
+   63  ls -la
+   64  cd .git/
+   65  ls
+   66  git status
+   67  cd ..
+   68  nano prueba.txt
+   69  cat prueba.txt 
+   70  git add prueba.txt
+   71  git status
+   72  git commit -m "Version 1 My friend"
+   73  git status
+   74  clear
+   75  git log
+   76  sudo apt update
+   77  sudo apt upgrade
+   78  ls
+   79  ls -la
+   80  clear
+   81  sudo virtualbox
+   82  sudo poweroff
+   83  git --version
+   84  history
+   85  cd Documentos/
+   86  ls
+   87  cd automatizacion/
+   88  cd proyecto/
+   89  git init
+   90  ls
+   91  nano prueba.txt 
+   92  git status
+   93  git add prueba.txt 
+   94  git status
+   95  nano prueba.txt 
+   96  git add prueba.txt 
+   97  git status
+   98  ls
+   99  ls -l
+  100  gti commit -m "Version inicial prueba.txt"
+  101  git status
+  102  git commit -m "Version inicial prueba.txt"
+  103  git status
+  104  gti branch 
+  105  git branch 
+  106  git branch develop
+  107  git branch 
+  108  git branch test
+  109  git branch 
+  110  ls -l
+  111  ls -la
+  112  git checkout develop
+  113  dir
+  114  git log
+  115  gti reflog
+  116  git reflog
+  117  git show 773086
+  118  history
+  119  ls
+  120  history
+  121  git config --global user.name
+  122  git config --global user.email
+  123  mkdir gitexample
+  124  cd gitexample/
+  125  git init
+  126  git status
+  127  nano indice.txt
+  128  nano archivo1.txt
+  129  nano configuracion.conf
+  130  history
+  131  git add indice.txt
+  132  git add archivo1.txt 
+  133  git add configuracion.conf 
+  134  git commit -m "Introduccion a git"
+  135  history 
+  136  git status
+  137  git commit -m "Introduccion a git"
+  138  git status
+  139  git branch
+  140  clear
+  141  history
+  142  git status
+  143  git commit -m "Añadido Introduccion a Git"
+  144  git add indice.txt
+  145  git add archivo1.txt 
+  146  git add configuracion.conf 
+  147  git commit -m "Introduccion a git"
+  148  git add configuracion.conf 
+  149  git status
+  150  nano configuracion.conf 
+  151  git add configuracion.conf 
+  152  git status
+  153  git commit -m "Introduccion a git"
+  154  git status
+  155  git commit -m "Añadido Introduccion a Git"
+  156  git log
+  157  git show d4d19257
+  158  git show 2fc
+  159  git show 2fc60a1
+  160  clear
+  161  git show 2fc60a1
+  162  ls
+  163  nano archivo1.txt 
+  164  nano configuracion.conf 
+  165  nano indice.txt 
+  166  git add archivo1.txt 
+  167  git add configuracion.conf 
+  168  git add indice.txt 
+  169  git status
+  170  git commit -m "Introduccion a git"
+  171  git commit --amend -m "Añadido Introduccion a Git"
+  172  git log
+  173  git show ede99d4
+  174  ls
+  175  cd automatizacion/
+  176  ls
+  177  mkdir exampleFlow
+  178  cd exampleFlow/
+  179  git flow init
+  180  sudo apt install git-flow
+  181  git flow init
+  182  git branch
+  183  gti chekout main
+  184  git chekout main
+  185  git checkout main
+  186  git checkout develop
+  187  git flow feature start fun-login
+  188  git branch
+  189  nano test.txt
+  190  git add .
+  191  ls
+  192  git status
+  193  git commit -m "Version Flow My friend"
+  194  gti branch
+  195  git branch
+  196  git flow feature finish fun-login
+  197  git branch
+  198  ls -l
+  199  git checkout main
+  200  dir
+  201  git diff main..develop
+  202  git checkout develop
+  203  gti branch
+  204  git branch
+  205  git flow release start v1
+  206  git branch
+  207  git flow release finish v1
+  208  git diff main..develop
+  209  sudo poweroff
+  210  sudo vmware
+  211  cd /root/
+  212  sudo cd /root/
+  213  sudo cd /root
+  214  sudo cd /
+  215  su
+  216  sudo su
+  217  sudo virtualbox
+  218  sudo apt-get install linux-headers-`uname -r`
+  219  sudo dpkg-reconfigure virtualbox-dkms  
+  220  sudo dpkg-reconfigure virtualbox-dkms
+  221  sudo apt-get install linux-headers-`uname -r`
+  222  sudo dpkg-reconfigure virtualbox-dkms
+  223  sudo apt-get install virtualbox-dkms
+  224  sudo apt update
+  225  sudo apt upgrade
+  226  sudo dpkg --configure -a
+  227  ls
+  228  cd Documentos/
+  229  ls
+  230  automatizacion/
+  231  cd automatizacion/
+  232  la
+  233  node -v
+  234  npm -v
+  235  echo history > notas.txt
+  236  ls
+  237* 
+  238  history > notas.txt
